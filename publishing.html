@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <style>
+        body {background-color: #1a1a1b;}
+        #box1 {
+            box-sizing: border-box;
+            width: 300px;
+            height: 340px;
+            background-color: #282f35;
+            border-radius: 8px 8px 8px 8px / 8px 8px 8px 8px;
+        }
+        #box1 img {border-radius: 8px 8px 0 0 / 8px 8px 0 0;}
+        #content {
+            margin : 15px 15px 15px 15px;
+            height: 120px;
+        }
+        #content h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            color: #B6B7B8;
+        }
+        #content p {
+            font-size: 13px;
+            color: #89898B;
+        }
+        #content div {
+            display: flex;
+            align-items: flex-end;
+        }
+        #box1 footer {
+            margin: 0;
+            color: #89898B;
+            height: 45px;
+            width: 300px;
+            border-top: 1px solid #89898B;
+            display: flex;
+            justify-content: space-between;
+        }
+        #app {
+            margin: 5px 5px 5px 10px;
+            display: flex;
+            align-items: center;
+        }
+        #app div {
+            margin-left: 7px;
+            font-size: 10px;
+        }
+        #box1 footer ul {
+            margin: 10px 0px 10px 10px;
+            list-style: none;
+            display: flex;
+        }
+        #box1 footer ul li {
+            margin-right: 15px;
+        }
+
+        #box2 {
+            width: 300px;
+        }
+        #box2 header {
+            display: flex;
+            justify-content: space-between;
+        }
+        #box2 header h3 {
+            color: #E5E6E7;
+        }
+        #box2 header div {
+            background-color: #282f35;
+            border-radius: 15px 15px 15px 15px / 15px 15px 15px 15px;
+            margin-top: 20px;
+            height: 25px;
+            width: 30px;
+            color: #89898B;
+            font-weight: bold;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .app {
+            background-color: #282f35;
+            border-radius: 8px 8px 8px 8px / 8px 8px 8px 8px;
+            margin-bottom: 10px;
+            height: 75px;
+            display: flex;
+            align-items: center;
+        }
+        .app div {margin-left: 10px}
+        .app div h1 {
+            margin: 0 0 5px 0;
+            font-size: 13px;
+            color: #E5E6E7;
+        }
+        .app div h2 {
+            margin: 0 0 5px 0;
+            font-size: 10px;
+            color: #E5E6E7;
+        }
+        .app div p {
+            margin: 0;
+            font-size: 10px;
+            color: #B6B7B8;
+        }
+        .app img{
+            margin-left: 15px;
+            border-radius: 5px 5px 5px 5px /5px 5px 5px 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <img src="turtle.jpg" alt="My Image" width="300" height="145">
+        <div id="content">
+            <h1>귀여운 거북이</h1>
+            <p>거북이는 대한민국의 3인조 그룹으로 소속사는 부기 엔터테인먼트이다.</p>
+            <div>
+                <p>a cute turtle</p>
+            </div>
+        </div>
+        <footer>
+            <div id="app">
+                <img src="appstore.png" alt="My Image" width="20" height="20">
+                <div>T Times</div>
+            </div>
+            <ul>
+                <li><i class="fas fa-bookmark"></i></li>
+                <li><i class="fas fa-ellipsis-v"></i></li>
+            </ul>
+        </footer>
+    </div>
+
+    <div id="box2">
+        <header>
+            <h3>🧰새로운 채용공고</h3>
+            <div>3</div>
+        </header>
+        <div id="content2">
+            <div class="app">
+                <img src="seoulstore.jpg" alt="My Image" width="45" height="45">
+                <div>
+                    <h1>UI/UX 디자이너</h1>
+                    <h2>서울스토어</h2>
+                    <p>고객의 몰입을 만들고자 합니다!</p>
+                </div>
+            </div>
+            <div class="app">
+                <img src="toss.jpg" alt="My Image" width="45" height="45">
+                <div>
+                    <h1>Product/UI Designer</h1>
+                    <h2>비바리퍼블리카</h2>
+                    <p>TOSS 포트폴리오 없는 디자이너 채용</p>
+                </div>
+            </div>
+            <div class="app">
+                <img src="grepp.jpg" alt="My Image" width="45" height="45">
+                <div>
+                    <h1>Product Designer</h1>
+                    <h2>그렙(프로그래머스/교육사업팀)</h2>
+                    <p>전사 리모트 근무 (영원히 ~ )</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
